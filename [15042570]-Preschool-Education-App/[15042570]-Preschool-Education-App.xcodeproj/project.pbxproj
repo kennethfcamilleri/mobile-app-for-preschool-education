@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE18928C1DC3BCAA00A53CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18928B1DC3BCAA00A53CA7 /* AppDelegate.swift */; };
+		EE18928E1DC3BCAA00A53CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18928D1DC3BCAA00A53CA7 /* ViewController.swift */; };
+		EE1892911DC3BCAA00A53CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE18928F1DC3BCAA00A53CA7 /* Main.storyboard */; };
+		EE1892961DC3BCAA00A53CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1892941DC3BCAA00A53CA7 /* LaunchScreen.storyboard */; };
+		EE1892A11DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1892A01DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppTests.swift */; };
+		EE1892AC1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1892AB1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift */; };
+		EE1892C41DC3D14200A53CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1892C31DC3D14200A53CA7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE18929D1DC3BCAA00A53CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1892801DC3BCAA00A53CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1892871DC3BCAA00A53CA7;
+			remoteInfo = "[15042570]-Preschool-Education-App";
+		};
+		EE1892A81DC3BCAA00A53CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1892801DC3BCAA00A53CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1892871DC3BCAA00A53CA7;
+			remoteInfo = "[15042570]-Preschool-Education-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE1892881DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[15042570]-Preschool-Education-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE18928B1DC3BCAA00A53CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE18928D1DC3BCAA00A53CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE1892901DC3BCAA00A53CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE1892951DC3BCAA00A53CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1892971DC3BCAA00A53CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE18929C1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[15042570]-Preschool-Education-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1892A01DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _15042570__Preschool_Education_AppTests.swift; sourceTree = "<group>"; };
+		EE1892A21DC3BCAA00A53CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1892A71DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[15042570]-Preschool-Education-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1892AB1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _15042570__Preschool_Education_AppUITests.swift; sourceTree = "<group>"; };
+		EE1892AD1DC3BCAA00A53CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1892C31DC3D14200A53CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1892851DC3BCAA00A53CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1892991DC3BCAA00A53CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1892A41DC3BCAA00A53CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE18927F1DC3BCAA00A53CA7 = {
+			isa = PBXGroup;
+			children = (
+				EE18928A1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App */,
+				EE18929F1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppTests */,
+				EE1892AA1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppUITests */,
+				EE1892891DC3BCAA00A53CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1892891DC3BCAA00A53CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1892881DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App.app */,
+				EE18929C1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppTests.xctest */,
+				EE1892A71DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE18928A1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App */ = {
+			isa = PBXGroup;
+			children = (
+				EE18928B1DC3BCAA00A53CA7 /* AppDelegate.swift */,
+				EE18928D1DC3BCAA00A53CA7 /* ViewController.swift */,
+				EE1892C31DC3D14200A53CA7 /* Assets.xcassets */,
+				EE18928F1DC3BCAA00A53CA7 /* Main.storyboard */,
+				EE1892941DC3BCAA00A53CA7 /* LaunchScreen.storyboard */,
+				EE1892971DC3BCAA00A53CA7 /* Info.plist */,
+			);
+			path = "[15042570]-Preschool-Education-App";
+			sourceTree = "<group>";
+		};
+		EE18929F1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1892A01DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppTests.swift */,
+				EE1892A21DC3BCAA00A53CA7 /* Info.plist */,
+			);
+			path = "[15042570]-Preschool-Education-AppTests";
+			sourceTree = "<group>";
+		};
+		EE1892AA1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1892AB1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift */,
+				EE1892AD1DC3BCAA00A53CA7 /* Info.plist */,
+			);
+			path = "[15042570]-Preschool-Education-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1892871DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1892B01DC3BCAA00A53CA7 /* Build configuration list for PBXNativeTarget "[15042570]-Preschool-Education-App" */;
+			buildPhases = (
+				EE1892841DC3BCAA00A53CA7 /* Sources */,
+				EE1892851DC3BCAA00A53CA7 /* Frameworks */,
+				EE1892861DC3BCAA00A53CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "[15042570]-Preschool-Education-App";
+			productName = "[15042570]-Preschool-Education-App";
+			productReference = EE1892881DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE18929B1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1892B31DC3BCAA00A53CA7 /* Build configuration list for PBXNativeTarget "[15042570]-Preschool-Education-AppTests" */;
+			buildPhases = (
+				EE1892981DC3BCAA00A53CA7 /* Sources */,
+				EE1892991DC3BCAA00A53CA7 /* Frameworks */,
+				EE18929A1DC3BCAA00A53CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE18929E1DC3BCAA00A53CA7 /* PBXTargetDependency */,
+			);
+			name = "[15042570]-Preschool-Education-AppTests";
+			productName = "[15042570]-Preschool-Education-AppTests";
+			productReference = EE18929C1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE1892A61DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1892B61DC3BCAA00A53CA7 /* Build configuration list for PBXNativeTarget "[15042570]-Preschool-Education-AppUITests" */;
+			buildPhases = (
+				EE1892A31DC3BCAA00A53CA7 /* Sources */,
+				EE1892A41DC3BCAA00A53CA7 /* Frameworks */,
+				EE1892A51DC3BCAA00A53CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1892A91DC3BCAA00A53CA7 /* PBXTargetDependency */,
+			);
+			name = "[15042570]-Preschool-Education-AppUITests";
+			productName = "[15042570]-Preschool-Education-AppUITests";
+			productReference = EE1892A71DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1892801DC3BCAA00A53CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kenneth Forseth Camilleri";
+				TargetAttributes = {
+					EE1892871DC3BCAA00A53CA7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EE18929B1DC3BCAA00A53CA7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE1892871DC3BCAA00A53CA7;
+					};
+					EE1892A61DC3BCAA00A53CA7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE1892871DC3BCAA00A53CA7;
+					};
+				};
+			};
+			buildConfigurationList = EE1892831DC3BCAA00A53CA7 /* Build configuration list for PBXProject "[15042570]-Preschool-Education-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE18927F1DC3BCAA00A53CA7;
+			productRefGroup = EE1892891DC3BCAA00A53CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1892871DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App */,
+				EE18929B1DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppTests */,
+				EE1892A61DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1892861DC3BCAA00A53CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1892961DC3BCAA00A53CA7 /* LaunchScreen.storyboard in Resources */,
+				EE1892C41DC3D14200A53CA7 /* Assets.xcassets in Resources */,
+				EE1892911DC3BCAA00A53CA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE18929A1DC3BCAA00A53CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1892A51DC3BCAA00A53CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1892841DC3BCAA00A53CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE18928E1DC3BCAA00A53CA7 /* ViewController.swift in Sources */,
+				EE18928C1DC3BCAA00A53CA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1892981DC3BCAA00A53CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1892A11DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1892A31DC3BCAA00A53CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1892AC1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE18929E1DC3BCAA00A53CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1892871DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App */;
+			targetProxy = EE18929D1DC3BCAA00A53CA7 /* PBXContainerItemProxy */;
+		};
+		EE1892A91DC3BCAA00A53CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1892871DC3BCAA00A53CA7 /* [15042570]-Preschool-Education-App */;
+			targetProxy = EE1892A81DC3BCAA00A53CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE18928F1DC3BCAA00A53CA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1892901DC3BCAA00A53CA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1892941DC3BCAA00A53CA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1892951DC3BCAA00A53CA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1892AE1DC3BCAA00A53CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE1892AF1DC3BCAA00A53CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1892B11DC3BCAA00A53CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "[15042570]-Preschool-Education-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsethStudio.-15042570--Preschool-Education-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE1892B21DC3BCAA00A53CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "[15042570]-Preschool-Education-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsethStudio.-15042570--Preschool-Education-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE1892B41DC3BCAA00A53CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "[15042570]-Preschool-Education-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsethStudio.-15042570--Preschool-Education-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/[15042570]-Preschool-Education-App.app/[15042570]-Preschool-Education-App";
+			};
+			name = Debug;
+		};
+		EE1892B51DC3BCAA00A53CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "[15042570]-Preschool-Education-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsethStudio.-15042570--Preschool-Education-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/[15042570]-Preschool-Education-App.app/[15042570]-Preschool-Education-App";
+			};
+			name = Release;
+		};
+		EE1892B71DC3BCAA00A53CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "[15042570]-Preschool-Education-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsethStudio.-15042570--Preschool-Education-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "[15042570]-Preschool-Education-App";
+			};
+			name = Debug;
+		};
+		EE1892B81DC3BCAA00A53CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "[15042570]-Preschool-Education-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsethStudio.-15042570--Preschool-Education-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "[15042570]-Preschool-Education-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1892831DC3BCAA00A53CA7 /* Build configuration list for PBXProject "[15042570]-Preschool-Education-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1892AE1DC3BCAA00A53CA7 /* Debug */,
+				EE1892AF1DC3BCAA00A53CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1892B01DC3BCAA00A53CA7 /* Build configuration list for PBXNativeTarget "[15042570]-Preschool-Education-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1892B11DC3BCAA00A53CA7 /* Debug */,
+				EE1892B21DC3BCAA00A53CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE1892B31DC3BCAA00A53CA7 /* Build configuration list for PBXNativeTarget "[15042570]-Preschool-Education-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1892B41DC3BCAA00A53CA7 /* Debug */,
+				EE1892B51DC3BCAA00A53CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE1892B61DC3BCAA00A53CA7 /* Build configuration list for PBXNativeTarget "[15042570]-Preschool-Education-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1892B71DC3BCAA00A53CA7 /* Debug */,
+				EE1892B81DC3BCAA00A53CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1892801DC3BCAA00A53CA7 /* Project object */;
+}
