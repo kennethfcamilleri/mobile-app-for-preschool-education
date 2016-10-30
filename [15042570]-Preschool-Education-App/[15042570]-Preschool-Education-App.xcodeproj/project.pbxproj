@@ -14,6 +14,7 @@
 		EE1892A11DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1892A01DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppTests.swift */; };
 		EE1892AC1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1892AB1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift */; };
 		EE1892C41DC3D14200A53CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1892C31DC3D14200A53CA7 /* Assets.xcassets */; };
+		EE8EFF261DC539110056119E /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EFF251DC539110056119E /* DragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EE1892AB1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _15042570__Preschool_Education_AppUITests.swift; sourceTree = "<group>"; };
 		EE1892AD1DC3BCAA00A53CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE1892C31DC3D14200A53CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8EFF251DC539110056119E /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				EE18928D1DC3BCAA00A53CA7 /* ViewController.swift */,
 				EE1892C31DC3D14200A53CA7 /* Assets.xcassets */,
 				EE18928F1DC3BCAA00A53CA7 /* Main.storyboard */,
+				EE8EFF251DC539110056119E /* DragView.swift */,
 				EE1892941DC3BCAA00A53CA7 /* LaunchScreen.storyboard */,
 				EE1892971DC3BCAA00A53CA7 /* Info.plist */,
 			);
@@ -261,6 +264,7 @@
 			files = (
 				EE18928E1DC3BCAA00A53CA7 /* ViewController.swift in Sources */,
 				EE18928C1DC3BCAA00A53CA7 /* AppDelegate.swift in Sources */,
+				EE8EFF261DC539110056119E /* DragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				EE1892B21DC3BCAA00A53CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE1892B31DC3BCAA00A53CA7 /* Build configuration list for PBXNativeTarget "[15042570]-Preschool-Education-AppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				EE1892B51DC3BCAA00A53CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE1892B61DC3BCAA00A53CA7 /* Build configuration list for PBXNativeTarget "[15042570]-Preschool-Education-AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				EE1892B81DC3BCAA00A53CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
