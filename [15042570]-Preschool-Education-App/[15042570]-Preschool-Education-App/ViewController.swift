@@ -131,7 +131,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lblFirstNumber: UILabel!
     @IBOutlet weak var lblSecondNumber: UILabel!
-    
+
+    @IBAction func btnShowResult(_ sender: UIButton) {
+        performSegue(withIdentifier: "resultSegue", sender: self)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -148,6 +151,14 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let resultViewController = segue.destination as! SecondView
+        
+        resultViewController.FirstNumber = String(FirstNumber)
+        resultViewController.SecondNumber = String(SecondNumber)
+        resultViewController.Result = String(Result)
     }
 
 

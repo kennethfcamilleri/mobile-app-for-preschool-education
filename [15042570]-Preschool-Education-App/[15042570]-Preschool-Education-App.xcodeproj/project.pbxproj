@@ -15,6 +15,7 @@
 		EE1892AC1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1892AB1DC3BCAA00A53CA7 /* _15042570__Preschool_Education_AppUITests.swift */; };
 		EE1892C41DC3D14200A53CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1892C31DC3D14200A53CA7 /* Assets.xcassets */; };
 		EE8EFF261DC539110056119E /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EFF251DC539110056119E /* DragView.swift */; };
+		EE8EFF281DC63FB30056119E /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EFF271DC63FB30056119E /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EE1892AD1DC3BCAA00A53CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE1892C31DC3D14200A53CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE8EFF251DC539110056119E /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		EE8EFF271DC63FB30056119E /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EE18928D1DC3BCAA00A53CA7 /* ViewController.swift */,
 				EE1892C31DC3D14200A53CA7 /* Assets.xcassets */,
 				EE18928F1DC3BCAA00A53CA7 /* Main.storyboard */,
+				EE8EFF271DC63FB30056119E /* SecondView.swift */,
 				EE8EFF251DC539110056119E /* DragView.swift */,
 				EE1892941DC3BCAA00A53CA7 /* LaunchScreen.storyboard */,
 				EE1892971DC3BCAA00A53CA7 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				EE18928E1DC3BCAA00A53CA7 /* ViewController.swift in Sources */,
 				EE18928C1DC3BCAA00A53CA7 /* AppDelegate.swift in Sources */,
+				EE8EFF281DC63FB30056119E /* SecondView.swift in Sources */,
 				EE8EFF261DC539110056119E /* DragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
