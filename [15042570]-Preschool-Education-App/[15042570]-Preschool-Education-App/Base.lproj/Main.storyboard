@@ -166,34 +166,19 @@
                                 <frame key="frameInset" minX="228" minY="505" width="66" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXs-Pb-7KX">
-                                <frame key="frameInset" minX="166" minY="415" width="54" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nX-yU-3K4">
                                 <frame key="frameInset" minX="315" minY="177" width="45" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="75"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEQ-Bv-Q8P">
-                                <frame key="frameInset" minX="238" minY="410" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="btnShowResult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9X7-eE-VCf"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="lblFirstNumber" destination="z6f-0L-NEh" id="mEf-SO-1Hn"/>
-                        <outlet property="lblResult" destination="FXs-Pb-7KX" id="ms6-sp-Ib3"/>
+                        <outlet property="lblQuestionMark" destination="7nX-yU-3K4" id="uHM-5s-zwG"/>
                         <outlet property="lblSecondNumber" destination="Vgi-K0-MgM" id="rFN-xo-16C"/>
                         <segue destination="Pc6-uj-TDm" kind="show" identifier="resultSegue" id="xOF-8w-Liz"/>
                     </connections>
@@ -285,6 +270,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="imgStarFive" destination="4cC-WS-3Bg" id="UEP-eN-xxD"/>
+                        <outlet property="imgStarFour" destination="6IN-0u-ylo" id="3mJ-6q-eSa"/>
+                        <outlet property="imgStarOne" destination="6G2-l8-pZY" id="1af-eq-fue"/>
+                        <outlet property="imgStarThree" destination="gPR-6y-m6q" id="Zth-1j-hDb"/>
+                        <outlet property="imgStarTwo" destination="KRA-Bf-EQf" id="wW2-kn-DSP"/>
                         <outlet property="lblFirstNumber" destination="1Jp-lz-KX0" id="oaq-D3-qed"/>
                         <outlet property="lblResult" destination="gJb-8N-k7y" id="FE6-2Y-hcQ"/>
                         <outlet property="lblSecondNumber" destination="gRp-Mk-6QG" id="AWb-pa-sKH"/>

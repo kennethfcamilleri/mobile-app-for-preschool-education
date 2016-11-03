@@ -15,126 +15,120 @@ class ViewController: UIViewController {
     var SecondNumber = 0
     var Result = 0
     
+    // Blink the question mark label on wrong answer
+    func blinkLabel(label : UILabel) {
+
+        UIView.animate(withDuration: 0.5, delay: 0.0, options: .curveEaseInOut, animations: {
+            label.alpha = 0
+            label.alpha = 1 })
+        
+    }
+    
     @IBAction func btnZero(_ sender: UIButton) {
         if (Result == 0) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
         
     }
     
     @IBAction func btnOne(_ sender: UIButton) {
         if (Result == 1) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
     }
     
     @IBAction func btnTwo(_ sender: UIButton) {
         if (Result == 2) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
     }
     
     @IBAction func btnThree(_ sender: UIButton) {
         if (Result == 3) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
     }
     
     @IBAction func btnFour(_ sender: UIButton) {
         if (Result == 4) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
     }
     
     @IBAction func btnFive(_ sender: UIButton) {
         if (Result == 5) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
     }
     
     @IBAction func btnSix(_ sender: UIButton) {
         if (Result == 6) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
     }
     
     @IBAction func btnSeven(_ sender: UIButton) {
         if (Result == 7) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
     }
     
     @IBAction func btnEight(_ sender: UIButton) {
         if (Result == 8) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
         }
     }
     
     @IBAction func btnNine(_ sender: UIButton) {
         if (Result == 9) {
-            lblResult.text = "Good"
-            lblResult.textColor = UIColor.green
+            performSegue(withIdentifier: "resultSegue", sender: self)
         }
         else {
-            lblResult.text = "Wrong"
-            lblResult.textColor = UIColor.red
+            lblQuestionMark.textColor = UIColor.red
+            blinkLabel(label: lblQuestionMark)
+            
         }
     }
     
-    @IBOutlet weak var lblResult: UILabel!
-    
-    
+    @IBOutlet weak var lblQuestionMark: UILabel!
     @IBOutlet weak var lblFirstNumber: UILabel!
     @IBOutlet weak var lblSecondNumber: UILabel!
-
-    @IBAction func btnShowResult(_ sender: UIButton) {
-        performSegue(withIdentifier: "resultSegue", sender: self)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
