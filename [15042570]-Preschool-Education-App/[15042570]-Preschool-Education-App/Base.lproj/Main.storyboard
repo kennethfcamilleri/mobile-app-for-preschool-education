@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,189 +12,234 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_15042570__Preschool_Education_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="jBa-TL-Dh1"/>
+                        <viewControllerLayoutGuide type="bottom" id="rlT-cM-6xp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6f-0L-NEh">
-                                <frame key="frameInset" minX="16" minY="177" width="51" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="75"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glW-0z-qqM">
-                                <frame key="frameInset" minX="89" minY="177" width="52" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="75"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgi-K0-MgM">
-                                <frame key="frameInset" minX="167" minY="177" width="48" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="75"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1TK-lo-9Od">
-                                <frame key="frameInset" minX="237" minY="177" width="51" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="75"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DyY-TO-ApR">
-                                <frame key="frameInset" minX="9" minY="28" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnZero" image="number0"/>
-                                <connections>
-                                    <action selector="btnZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gLK-Us-1yE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVc-ii-5Uc">
-                                <frame key="frameInset" minX="301" minY="28" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnFour" image="number4"/>
-                                <connections>
-                                    <action selector="btnFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yXy-jK-4pv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfs-vZ-qZF">
-                                <frame key="frameInset" minX="228" minY="28" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnThree" image="number3"/>
-                                <connections>
-                                    <action selector="btnThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MTH-96-PPr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPi-N2-Afo">
-                                <frame key="frameInset" minX="155" minY="28" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnTwo" image="number2"/>
-                                <connections>
-                                    <action selector="btnTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="65C-NR-hMw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sa-nr-WuM">
-                                <frame key="frameInset" minX="82" minY="28" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnOne" image="number1"/>
-                                <connections>
-                                    <action selector="btnOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MGx-5U-7dd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkG-Ed-ZgZ">
-                                <frame key="frameInset" minX="9" minY="101" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnFive" image="number5"/>
-                                <connections>
-                                    <action selector="btnFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4bm-gT-VTd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJm-b5-nAP">
-                                <frame key="frameInset" minX="301" minY="101" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnNine" image="number9"/>
-                                <connections>
-                                    <action selector="btnNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vyo-i0-59v"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HX-hq-CyT">
-                                <frame key="frameInset" minX="228" minY="101" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnEight" image="number8"/>
-                                <connections>
-                                    <action selector="btnEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G5F-vq-QSg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQe-oz-zzQ">
-                                <frame key="frameInset" minX="155" minY="101" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnSeven" image="number7"/>
-                                <connections>
-                                    <action selector="btnSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5op-ci-VVE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBV-a3-1Ix">
-                                <frame key="frameInset" minX="82" minY="101" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnSix" image="number6"/>
-                                <connections>
-                                    <action selector="btnSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dnW-Ru-58K"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate_white" translatesAutoresizingMaskIntoConstraints="NO" id="pzQ-gB-SfC">
-                                <frame key="frameInset" minX="27" minY="426" width="321" height="241"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="EWH-73-JZO" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="58" minY="326" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="8KN-y1-s9d" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="84" minY="495" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="hEC-G3-73X" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="101" minY="272" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="dsu-JS-chO" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="27" minY="272" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="ilS-8s-lpV" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="245" minY="281" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="Ryc-Sn-fWt" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="119" minY="513" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="h09-bZ-oOy" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="158" minY="513" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="v0c-QI-fMX" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="187" minY="513" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="69m-5Y-uVL" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
-                                <frame key="frameInset" minX="228" minY="505" width="66" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nX-yU-3K4">
-                                <frame key="frameInset" minX="315" minY="177" width="45" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="75"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" restorationIdentifier="bottomView" translatesAutoresizingMaskIntoConstraints="NO" id="o14-mz-NEc">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plate_white" translatesAutoresizingMaskIntoConstraints="NO" id="pzQ-gB-SfC"/>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="EWH-73-JZO" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="125" minY="238" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="8KN-y1-s9d" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="80" minY="243" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="hEC-G3-73X" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="135" minY="273" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="dsu-JS-chO" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="256" minY="262" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="ilS-8s-lpV" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="210" minY="243" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="Ryc-Sn-fWt" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="90" minY="273" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="h09-bZ-oOy" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="166" minY="238" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="v0c-QI-fMX" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="170" minY="273" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="69m-5Y-uVL" customClass="DragView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target">
+                                        <frame key="frameInset" minX="214" minY="272" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="pzQ-gB-SfC" firstAttribute="leading" secondItem="o14-mz-NEc" secondAttribute="leading" id="43n-OR-YeE"/>
+                                    <constraint firstAttribute="bottom" secondItem="pzQ-gB-SfC" secondAttribute="bottom" id="Hdv-1o-DMI"/>
+                                    <constraint firstAttribute="trailing" secondItem="pzQ-gB-SfC" secondAttribute="trailing" id="ogz-tn-97f"/>
+                                    <constraint firstItem="pzQ-gB-SfC" firstAttribute="height" secondItem="o14-mz-NEc" secondAttribute="height" multiplier="0.43" id="qkI-R6-kyI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" restorationIdentifier="topView" translatesAutoresizingMaskIntoConstraints="NO" id="GwM-Kh-dtZ">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DyY-TO-ApR">
+                                        <frame key="frameInset" minX="8" minY="25" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnZero" image="number0"/>
+                                        <connections>
+                                            <action selector="btnZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gLK-Us-1yE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVc-ii-5Uc">
+                                        <frame key="frameInset" minX="300" minY="25" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnFour" image="number4"/>
+                                        <connections>
+                                            <action selector="btnFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yXy-jK-4pv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfs-vZ-qZF">
+                                        <frame key="frameInset" minX="227" minY="25" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnThree" image="number3"/>
+                                        <connections>
+                                            <action selector="btnThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MTH-96-PPr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPi-N2-Afo">
+                                        <frame key="frameInset" minX="154" minY="25" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnTwo" image="number2"/>
+                                        <connections>
+                                            <action selector="btnTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="65C-NR-hMw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sa-nr-WuM">
+                                        <frame key="frameInset" minX="81" minY="25" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnOne" image="number1"/>
+                                        <connections>
+                                            <action selector="btnOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MGx-5U-7dd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkG-Ed-ZgZ">
+                                        <frame key="frameInset" minX="8" minY="98" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnFive" image="number5"/>
+                                        <connections>
+                                            <action selector="btnFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4bm-gT-VTd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJm-b5-nAP">
+                                        <frame key="frameInset" minX="300" minY="98" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnNine" image="number9"/>
+                                        <connections>
+                                            <action selector="btnNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vyo-i0-59v"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HX-hq-CyT">
+                                        <frame key="frameInset" minX="227" minY="98" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnEight" image="number8"/>
+                                        <connections>
+                                            <action selector="btnEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G5F-vq-QSg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQe-oz-zzQ">
+                                        <frame key="frameInset" minX="154" minY="98" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnSeven" image="number7"/>
+                                        <connections>
+                                            <action selector="btnSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5op-ci-VVE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBV-a3-1Ix">
+                                        <frame key="frameInset" minX="81" minY="98" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="btnSix" image="number6"/>
+                                        <connections>
+                                            <action selector="btnSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dnW-Ru-58K"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6f-0L-NEh">
+                                        <frame key="frameInset" minX="15" minY="175" width="50" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="75"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glW-0z-qqM">
+                                        <frame key="frameInset" minX="88" minY="175" width="50" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="75"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgi-K0-MgM">
+                                        <frame key="frameInset" minX="166" minY="175" width="50" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="75"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1TK-lo-9Od">
+                                        <frame key="frameInset" minX="239" minY="175" width="50" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="75"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nX-yU-3K4">
+                                        <frame key="frameInset" minX="314" minY="175" width="50" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="75"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="o14-mz-NEc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5NY-8r-YnV"/>
+                            <constraint firstAttribute="trailing" secondItem="GwM-Kh-dtZ" secondAttribute="trailing" id="6AA-Gk-lpM"/>
+                            <constraint firstAttribute="trailing" secondItem="o14-mz-NEc" secondAttribute="trailing" id="JVg-eH-rjN"/>
+                            <constraint firstItem="GwM-Kh-dtZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MYx-aw-DSn"/>
+                            <constraint firstItem="o14-mz-NEc" firstAttribute="top" secondItem="GwM-Kh-dtZ" secondAttribute="bottom" id="PfB-MM-q4e"/>
+                            <constraint firstItem="rlT-cM-6xp" firstAttribute="top" secondItem="o14-mz-NEc" secondAttribute="bottom" id="eBe-sl-JI6"/>
+                            <constraint firstItem="GwM-Kh-dtZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gNs-ZG-REV"/>
+                            <constraint firstItem="o14-mz-NEc" firstAttribute="height" secondItem="GwM-Kh-dtZ" secondAttribute="height" multiplier="1.488" id="sWu-P7-cV4"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="apple1" destination="EWH-73-JZO" id="rnG-dD-ffy"/>
+                        <outlet property="apple2" destination="8KN-y1-s9d" id="dAC-Zf-CbK"/>
+                        <outlet property="apple3" destination="hEC-G3-73X" id="mXl-GC-1ob"/>
+                        <outlet property="apple4" destination="dsu-JS-chO" id="ghs-1c-D55"/>
+                        <outlet property="apple5" destination="ilS-8s-lpV" id="qL2-Et-WoT"/>
+                        <outlet property="apple6" destination="Ryc-Sn-fWt" id="Njr-w6-38O"/>
+                        <outlet property="apple7" destination="h09-bZ-oOy" id="oSb-gz-pUz"/>
+                        <outlet property="apple8" destination="v0c-QI-fMX" id="Zx4-Dc-V8v"/>
+                        <outlet property="apple9" destination="69m-5Y-uVL" id="Fbb-wy-2fp"/>
+                        <outlet property="bottomView" destination="o14-mz-NEc" id="c2o-BP-xfu"/>
+                        <outlet property="btnEight" destination="6HX-hq-CyT" id="FA0-Co-sfi"/>
+                        <outlet property="btnFive" destination="YkG-Ed-ZgZ" id="vux-oM-Ldx"/>
+                        <outlet property="btnFour" destination="WVc-ii-5Uc" id="ibu-TH-RT7"/>
+                        <outlet property="btnNine" destination="VJm-b5-nAP" id="t0y-S1-qPB"/>
+                        <outlet property="btnOne" destination="2Sa-nr-WuM" id="IrM-aG-uMp"/>
+                        <outlet property="btnSeven" destination="nQe-oz-zzQ" id="IKU-Cg-3qz"/>
+                        <outlet property="btnSix" destination="qBV-a3-1Ix" id="SWf-2B-9TU"/>
+                        <outlet property="btnThree" destination="Jfs-vZ-qZF" id="4KM-x7-bxn"/>
+                        <outlet property="btnTwo" destination="iPi-N2-Afo" id="Qok-7d-2mt"/>
+                        <outlet property="btnZero" destination="DyY-TO-ApR" id="Y1l-eC-3or"/>
+                        <outlet property="lblEquals" destination="1TK-lo-9Od" id="OOs-AL-t4c"/>
                         <outlet property="lblFirstNumber" destination="z6f-0L-NEh" id="mEf-SO-1Hn"/>
+                        <outlet property="lblPlus" destination="glW-0z-qqM" id="DQo-Lm-axg"/>
                         <outlet property="lblQuestionMark" destination="7nX-yU-3K4" id="uHM-5s-zwG"/>
                         <outlet property="lblSecondNumber" destination="Vgi-K0-MgM" id="rFN-xo-16C"/>
-                        <segue destination="Pc6-uj-TDm" kind="show" identifier="resultSegue" id="xOF-8w-Liz"/>
+                        <outlet property="topView" destination="GwM-Kh-dtZ" id="Fz8-gJ-Vc1"/>
+                        <segue destination="Pc6-uj-TDm" kind="presentation" identifier="resultSegue" id="xOF-8w-Liz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="136.80000000000001" y="126.38680659670166"/>
         </scene>
         <!--Second View-->
         <scene sceneID="cqS-WZ-3mG">
             <objects>
                 <viewController id="Pc6-uj-TDm" customClass="SecondView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1nm-OB-BT0"/>
-                        <viewControllerLayoutGuide type="bottom" id="M7E-tf-OxP"/>
+                        <viewControllerLayoutGuide type="top" id="PRW-QS-1kf"/>
+                        <viewControllerLayoutGuide type="bottom" id="cb9-aC-YXq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2wQ-yP-i5J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -263,18 +309,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="play_again"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="55R-5a-RXn"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="55R-5a-RXn"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="SecondView" destination="2wQ-yP-i5J" id="jWw-Vq-e2E"/>
+                        <outlet property="btnRestart" destination="gZ1-E8-npa" id="0nr-0A-vtz"/>
                         <outlet property="imgStarFive" destination="4cC-WS-3Bg" id="UEP-eN-xxD"/>
                         <outlet property="imgStarFour" destination="6IN-0u-ylo" id="3mJ-6q-eSa"/>
                         <outlet property="imgStarOne" destination="6G2-l8-pZY" id="1af-eq-fue"/>
                         <outlet property="imgStarThree" destination="gPR-6y-m6q" id="Zth-1j-hDb"/>
                         <outlet property="imgStarTwo" destination="KRA-Bf-EQf" id="wW2-kn-DSP"/>
+                        <outlet property="imgThumbsUp" destination="nOp-Dq-Z74" id="E4l-aR-QtQ"/>
                         <outlet property="lblFirstNumber" destination="1Jp-lz-KX0" id="oaq-D3-qed"/>
                         <outlet property="lblResult" destination="gJb-8N-k7y" id="FE6-2Y-hcQ"/>
                         <outlet property="lblSecondNumber" destination="gRp-Mk-6QG" id="AWb-pa-sKH"/>
@@ -282,7 +331,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZz-7u-ILo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="920.79999999999995" y="138.98050974512745"/>
+            <point key="canvasLocation" x="920.80000000000007" y="138.98050974512745"/>
         </scene>
     </scenes>
     <resources>
