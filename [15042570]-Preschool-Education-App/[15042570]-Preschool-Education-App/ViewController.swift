@@ -291,8 +291,8 @@ class ViewController: UIViewController {
             iPhoneSELayout()
         }
         
-        FirstNumber = Int(arc4random_uniform(4))
-        SecondNumber = Int(arc4random_uniform(4))
+        FirstNumber = Int(arc4random_uniform(4)) // generates a number from 0 - 4
+        SecondNumber = Int(arc4random_uniform(4)) // generates a number from 0 - 4
         
         Result = FirstNumber + SecondNumber
     

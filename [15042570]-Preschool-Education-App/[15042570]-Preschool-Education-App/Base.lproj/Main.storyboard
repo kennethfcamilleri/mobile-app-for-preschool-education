@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_15042570__Preschool_Education_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="partialCurl" id="BYZ-38-t0r" customClass="ViewController" customModule="_15042570__Preschool_Education_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jBa-TL-Dh1"/>
                         <viewControllerLayoutGuide type="bottom" id="rlT-cM-6xp"/>
@@ -236,7 +236,7 @@
         <!--Second View-->
         <scene sceneID="cqS-WZ-3mG">
             <objects>
-                <viewController id="Pc6-uj-TDm" customClass="SecondView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="Pc6-uj-TDm" customClass="SecondView" customModule="_15042570__Preschool_Education_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PRW-QS-1kf"/>
                         <viewControllerLayoutGuide type="bottom" id="cb9-aC-YXq"/>
